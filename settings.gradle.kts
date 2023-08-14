@@ -1,3 +1,3 @@
 rootProject.name = "ecommerce"
 
-include("user-service", "discovery")
+include("user-service", "discovery", "gateway")
