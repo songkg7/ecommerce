@@ -23,4 +23,9 @@ class UserController {
         return "Hello World in First Service."
     }
 
+    @GetMapping("/check")
+    fun check(): String {
+        return "Hi, there. This is a message from First Service."
+    }
+
 }
